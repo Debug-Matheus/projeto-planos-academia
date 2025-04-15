@@ -235,6 +235,12 @@ footer p{
 
     }
   }
+  @media (max-width: 780px) {
+    section.plano ul {
+      list-style-type: '\1F5F8\00A0\00A0';
+
+    }
+  }
   @media (max-width: 950px) {
     .plano {
       width: 45%;
