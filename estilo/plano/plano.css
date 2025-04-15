@@ -219,12 +219,12 @@ footer p{
     }
 
     nav {
-        gap: 10px;
+        gap: 14px;
         align-items: center;
     }
 
     nav > a {
-        padding: 10px 3px;
+        padding: 10px 11px;
         font-size: 18px;
     }
 }
