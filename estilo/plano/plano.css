@@ -122,10 +122,6 @@ section.planos-container {
   section.plano h2 span{
     font-size: 15px;
   }
-  section.plano p {
-    font-size: 1.2em;
-    margin: 10px 0;
-  }
   
   section.plano ul {
     list-style-position: inside;
@@ -138,7 +134,7 @@ section.planos-container {
   section.plano li {
     margin: 5px 0;
     text-align: justify;
-    margin-left: 53px;
+    margin-left: 55px;
     font-size: 15px;
     
   }
@@ -233,9 +229,10 @@ footer p{
     }
 }
   
-  @media (max-width: 768px) {
+  @media (max-width: 780px) {
     section.plano li {
-      margin-left: 65px;
+      text-align: justify;
+
     }
   }
   @media (max-width: 950px) {
