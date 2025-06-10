@@ -16,7 +16,7 @@ body{
     background-image:url('../imagens/Academia2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: right center;
     background-attachment: fixed;
 }
 header.header-container {
@@ -27,7 +27,7 @@ header.header-container {
   text-align: center;
   height: 130px;
   padding: 0 5%;
-  margin-bottom: 140px;
+  margin-bottom: 110px;
   background-image: linear-gradient(to top ,black, #5f251d 150%);
 }
 
