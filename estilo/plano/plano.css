@@ -24,21 +24,11 @@ header.header-container {
   align-items: center;
   justify-content: space-between; /* espaço entre logo e menu */
   width: 100%;
+  text-align: center;
   height: 130px;
   padding: 0 5%;
   margin-bottom: 140px;
-  
-}
-
-header{
-background-image: linear-gradient(to top ,black, #5f251d 150%);
-width: 100%;
-text-align: center;
-display: flex;
-align-items: center;
-justify-content: center;
-
-
+  background-image: linear-gradient(to top ,black, #5f251d 150%);
 }
 
 header div.logo{
@@ -52,6 +42,7 @@ width: 120px;
 }
 nav {
 display: flex;
+flex-flow: row nowrap;
 gap: 30px;
 background-color: transparent;
 
@@ -64,6 +55,8 @@ padding: 10px 40px;
 transition-duration: 0.5s;
 font-size: 15px;
 font-family: var(--fonte2);
+flex-shrink: 1;
+
 
 }
 nav > a:hover{
@@ -99,9 +92,8 @@ section.planos-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.37);
     text-align: center;
     height: auto;
-    justify-content: space-between;
     transition: transform 0.3s ease;
-    
+
   }
   section.plano:hover {
     background-color: #6f6f74;
@@ -206,12 +198,12 @@ footer p{
 }
   
   /* Responsividade para mobile media queries */
-  @media (max-width: 768px) {
-    header.header-container {
+  @media (max-width: 570px) {
+      header.header-container {
         flex-direction: column;       /* Empilha logo e menu */
         align-items: center;          /* Centraliza tudo */
         height: auto;
-        padding: 10px 20px;
+        padding: 10px 4px 10px 4px;
     }
 
     header div.logo {
@@ -219,36 +211,40 @@ footer p{
     }
 
     nav {
-        gap: 15px;
+        gap: 5px;
         align-items: center;
     }
 
     nav > a {
-        padding: 10px 13px;
+        padding: 10px 7px;
         font-size: 18px;
     }
-}
-  
-  @media (max-width: 780px) {
+  }
+  @media (min-width: 570px) and (max-width: 900px) {
+    header.header-container {
+        flex-direction: column; 
+        align-items: center;          
+        height: auto;
+        padding: 10px 20px 10px 20px;
+    }
     section.plano li {
       text-align: justify;
 
     }
-  }
-  @media (max-width: 780px) {
-    section.plano ul {
-      list-style-type: '\2713\00A0\00A0';
+    header div.logo {
+        margin-bottom: 10px;          
+    }
 
+    nav {
+        gap: 80px;
+        align-items: center;
     }
-  }
-  @media (max-width: 950px) {
-    .plano {
-      width: 45%;
+
+    nav > a {
+        padding: 10px 8px;
+        font-size: 18px;
     }
-  }
+}
   
-  @media (max-width: 600px) {
-    .plano {
-      width: 100%;
-    }
-  }
+ 
+  
