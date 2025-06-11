@@ -200,6 +200,10 @@ footer p{
   
   /* Responsividade para mobile media queries */
   @media (max-width: 570px) {
+    header {
+      padding-top: env(safe-area-inset-top);
+      
+    }
     body {
       padding-top: env(safe-area-inset-top); /* suporte para iPhone com notch */
     }
@@ -228,6 +232,9 @@ footer p{
     }  
   }
   @media (min-width: 570px) and (max-width: 900px) {
+    header {
+      padding-top: env(safe-area-inset-top);
+    }
     body {
       padding-top: env(safe-area-inset-top); /* suporte para iPhone com notch */
     }
