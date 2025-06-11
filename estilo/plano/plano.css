@@ -205,6 +205,9 @@ footer p{
   
   /* Responsividade para mobile media queries */
   @media (max-width: 570px) {
+    html{
+      height: 100%;
+    }
     header {
       padding-top: env(safe-area-inset-top);
       background-image: linear-gradient(to top ,black, #5f251d 150%); /* ou a cor do seu topo */
@@ -238,6 +241,9 @@ footer p{
     }  
   }
   @media (min-width: 570px) and (max-width: 900px) {
+    html{
+      height: 100%;
+    }
     header {
       padding-top: env(safe-area-inset-top);
       background-image: linear-gradient(to top ,black, #5f251d 150%); /* ou a cor do seu topo */
