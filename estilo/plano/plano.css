@@ -203,6 +203,7 @@ footer p{
   @media (max-width: 570px) {
     header {
       padding-top: env(safe-area-inset-top);
+      background-image: linear-gradient(to top ,black, #5f251d 150%); /* ou a cor do seu topo */
       
     }
     body {
@@ -235,6 +236,7 @@ footer p{
   @media (min-width: 570px) and (max-width: 900px) {
     header {
       padding-top: env(safe-area-inset-top);
+      background-image: linear-gradient(to top ,black, #5f251d 150%); /* ou a cor do seu topo */
     }
     body {
       padding-top: env(safe-area-inset-top); /* suporte para iPhone com notch */
