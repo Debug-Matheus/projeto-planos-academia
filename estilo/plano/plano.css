@@ -11,6 +11,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+  background-image: linear-gradient(to top ,black, #5f251d 150%);
+  height: 100%;
+}
+
 body{
     font-family: var(--fonte1);
     background-image:url('../imagens/Academia2.jpg');
