@@ -200,6 +200,9 @@ footer p{
   
   /* Responsividade para mobile media queries */
   @media (max-width: 570px) {
+    body {
+      padding-top: env(safe-area-inset-top); /* suporte para iPhone com notch */
+    }
       header.header-container {
         flex-direction: column;       /* Empilha logo e menu */
         align-items: center;          /* Centraliza tudo */
@@ -225,6 +228,9 @@ footer p{
     }  
   }
   @media (min-width: 570px) and (max-width: 900px) {
+    body {
+      padding-top: env(safe-area-inset-top); /* suporte para iPhone com notch */
+    }
     header.header-container {
         flex-direction: column; 
         align-items: center;          
