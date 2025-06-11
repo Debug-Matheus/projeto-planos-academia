@@ -207,7 +207,7 @@ footer p{
   /* Responsividade para mobile media queries */
   @media (max-width: 570px) {
     body{
-      background-position: center;
+      background-position: center right;
     }
     header.header-container{
       margin-bottom: 100px;
@@ -246,7 +246,7 @@ footer p{
   }
   @media (min-width: 570px) and (max-width: 900px) {
     body{
-      background-position: center;
+      background-position: center right;
     }
     header.header-container{
       margin-bottom: 100px;
